@@ -5,3 +5,13 @@ for (int i = 100; i<1000; i++)
       Console.WriteLine($"{i}");
     }
 }
+
+int i = 100;
+while(i<1000)
+{
+ if(i%4==0 && i % 6 != 0)
+    {
+      Console.WriteLine($"{i}");
+    }
+    i++;
+}
